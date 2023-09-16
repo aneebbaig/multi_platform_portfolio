@@ -76,19 +76,33 @@ flutter:
   fonts:
     - family: SanFranciscoText
       fonts:
-        - asset: fonts/SanFranciscoText-Regular.ttf
-        - asset: fonts/SanFranciscoText-Bold.ttf
+        - asset: fonts/SanFranciscoText-Regular.otf
+        - asset: fonts/SanFranciscoText-Bold.otf
           weight: 700
-        - asset: fonts/SanFranciscoText-Semibold.ttf
+        - asset: fonts/SanFranciscoText-Semibold.otf
           weight: 600
 
     - family: SanFranciscoDisplay
       fonts:
-        - asset: fonts/SanFranciscoDisplay-Regular.ttf
+        - asset: fonts/SanFranciscoDisplay-Regular.otf
         - asset: fonts/SanFranciscoDisplay-Bold.ttf
           weight: 700
-        - asset: fonts/SanFranciscoDisplay-Semibold.ttf
+        - asset: fonts/SanFranciscoDisplay-Semibold.otf
           weight: 600
+
+    - family: GoogleSans
+      fonts:
+        - asset: fonts/GoogleSans-Regular.ttf
+        - asset: fonts/ProductSans-Regular.ttf
+        - asset: fonts/ProductSans-Bold.ttf
+          weight: 700
+
+    - family: SegoeUI
+      fonts:
+        - asset: fonts/SegoeUI-Regular.ttf
+        - asset: fonts/SegoeUI-Bold.ttf
+          weight: 700
+
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
